@@ -9,12 +9,13 @@
 - ubaci font kako je reko onaj batica sto trza glavom, neki import u css
 - uzmi boje iz nft projekta, ili chatgpt neki futuristic cyber
 - mozda pozadinu promeni u nesto sto igra
-
 - popuni podatke
 - proveri typo-e greske
 - check responsive at the end
 - promeni title i desc i favicon i meta za sliku kad se sharuje link
-- remove my photo bg using some tool
+- remove my photo bg using some tool (not done looks weird)
+
+- deployaj startup cv na github pages. a za kliente na zobla.dev (tu je bitniji title i desc)
 
 Proveri opet
 
@@ -24,3 +25,6 @@ posle release
 - download CV
 - napravi modele za podatke i da budu dinamicni iz script.js
 - dodaj toast za mail success error
+
+
+optimization, performance, AI, Complete Solution, Scalable architecture

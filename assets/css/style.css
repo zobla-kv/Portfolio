@@ -18,11 +18,7 @@
   /* gradient */
 
   /* boje koje menjam:  */
-  --text-gradient-yellow: linear-gradient(
-    to right,
-    hsl(224, 81%, 21%),
-    hsl(182, 71%, 37%)
-  );
+  --text-gradient-yellow: linear-gradient(to right, #0a2161, #1b9da1);
   --bg-gradient-button: linear-gradient(
       135deg,
       hsla(182, 71%, 37%) 0%,
@@ -31,9 +27,7 @@
     hsl(120, 3%, 13%);
 
   --primary-color: #00f5ff;
-  /* --primary-color: #1f51ff; */
-  /* --secondary-color: #ff00f7; */
-  --secondary-color: #ff3131;
+  --primary-color: #00ffff;
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
@@ -358,7 +352,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 118px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -378,6 +372,10 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+}
+
+.avatar-box img {
+  border-radius: 1rem;
 }
 
 .info-content .name {
@@ -527,6 +525,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  margin-bottom: 24px;
 }
 
 .about-text p {
@@ -553,6 +552,14 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+}
+
+.project-ite {
+  padding: 0 8px;
+}
+
+.project-conten {
+  padding: 4px;
 }
 
 .service-item,
@@ -707,7 +714,7 @@ main {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(80px, max-content));
-  gap: 2rem;
+  gap: 1.15rem;
 }
 
 .skill-item {
@@ -783,7 +790,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 250px;
+  max-height: 250px;
   overflow: hidden;
   border-radius: 1rem;
 }
@@ -843,7 +850,7 @@ main {
 }
 
 .project-content {
-  padding: 1rem;
+  padding: 16px 0 0 0;
 }
 
 .project-header {
@@ -1155,7 +1162,6 @@ textarea.form-input::-webkit-resizer {
    * #PROJECTS, BLOG 
    */
 
-  /* .project-img, */
   .blog-banner-box {
     height: auto;
   }
@@ -1329,6 +1335,10 @@ textarea.form-input::-webkit-resizer {
     text-align: left;
   }
 
+  .skills-grid {
+    gap: 2rem;
+  }
+
   /**
    * #EXPERIANCE
    */
@@ -1354,6 +1364,10 @@ textarea.form-input::-webkit-resizer {
   /**
    * #PROJECTS, BLOG
    */
+
+  .project-content {
+    padding: 1rem;
+  }
 
   /* .project-img, */
   .blog-banner-box {
@@ -1648,7 +1662,6 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 150px;
-    border-radius: 1rem;
   }
 
   .info-content .name {

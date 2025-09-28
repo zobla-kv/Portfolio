@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nemanja Blagojevic - Freelance Web Developer</title>
+
+    <!--
+    - meta
+  -->
+    <meta
+      name="description"
+      content="My job is to take your web app from concept to launch."
+    />
+    <meta
+      name="keywords"
+      content="Web Developer, Freelance, Angular, React, Node.js, AI"
+    />
+    <meta name="author" content="Nemanja Blagojevic" />
+
+    <meta
+      property="og:title"
+      content="Nemanja Blagojevic | Freelance Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="I will take your web app from concept to launch."
+    />
+    <meta property="og:image" content="/assets/images/zobla.dev.png" />
+    <meta property="og:url" content="https://zobla.dev/" />
+    <meta property="og:type" content="website" />
+
+    <!--
+    - favicon
+  -->
+    <link rel="icon" href="/assets/images/my-photo.png" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <canvas></canvas>
+
+    <main class="content--canvas">
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="/assets/images/my-photo.png"
+              alt="Nemanja Blagojevic"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Nemanja Blagojevic">Nemanja Blagojevic</h1>
+
+            <p class="title">Web Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:zobla.kv@gmail.com" class="contact-link"
+                  >zobla.kv@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Github</p>
+
+                <a href="https://github.com/zobla-kv" class="contact-link"
+                  >zobla-kv</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Kraljevo, Serbia</address>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Time now</p>
+
+                <span id="time-now"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Freelance Web Developer from Kraljevo, Serbia. I provide
+              various web development services using latest technologies.
+            </p>
+            <p>
+              My job is to build or extend your website in a functional and
+              user-friendly way. Moreover, I add personal touch to your product
+              and make sure that is eye-catching and easy to use. My aim is to
+              provide a clean plan and exection to deliver a complete solution.
+              <br />
+              <br />
+              <b
+                >Available for contract-to-hire and startup job
+                opportunities.</b
+              >
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="/assets/images/icon-webdev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of websites at the professional
+                    level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="/assets/images/icon-delivery.svg"
+                    alt="delivery icon"
+                    width="40"
+                    style="scale: 1.3"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Complete Solution</h4>
+
+                  <p class="service-item-text">
+                    End-to-end delivery of projects and features, from concept
+                    to launch.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="/assets/images/icon-integrations.svg"
+                    alt="design
+                  icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Integrations</h4>
+
+                  <p class="service-item-text">
+                    Integration with various services like OpenAI, PayPal, Gmail
+                    etc.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="/assets/images/icon-automation.svg"
+                    alt="automation icon"
+                    width="40"
+                    style="scale: 1.2"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Automation</h4>
+
+                  <p class="service-item-text">
+                    Automate repetitive tasks and spend more time doing what
+                    matters.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skills">
+            <h3 class="h3 service-title">Skills</h3>
+
+            <h4 class="h4 service-subtitle">Frontend</h4>
+            <div class="skills-grid">
+              <div class="skill-item" title="Typescript">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                  alt="Typescript"
+                />
+                <p>Typescript</p>
+              </div>
+              <div class="skill-item" title="Angular">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+                  alt="Angular"
+                />
+                <p>Angular</p>
+              </div>
+              <div class="skill-item" title="React">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React"
+                />
+                <p>React</p>
+              </div>
+              <div class="skill-item" title="RxJs">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg"
+                  alt="RxJs"
+                />
+                <p>RxJs</p>
+              </div>
+              <div class="skill-item" title="Sass">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+                  alt="Sass"
+                />
+                <p>Sass</p>
+              </div>
+              <div class="skill-item" title="Bootstrap">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                  alt="Bootstrap"
+                />
+                <p>Bootstrap</p>
+              </div>
+              <div class="skill-item" title="Tailwind">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                  alt="Tailwind"
+                />
+                <p>Tailwind</p>
+              </div>
+              <div class="skill-item" title="Material UI">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+                  alt="Material UI"
+                />
+                <p>Material UI</p>
+              </div>
+              <div class="skill-item" title="Jest">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+                  alt="Jest"
+                />
+                <p>Jest</p>
+              </div>
+
+              <div class="skill-item" title="Playwright">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg"
+                  alt="Playwright"
+                />
+                <p>Playwright</p>
+              </div>
+              <div class="skill-item" title="Pug.js">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pug/pug-original.svg"
+                  alt="Pug.js"
+                />
+                <p>Pug.js</p>
+              </div>
+            </div>
+
+            <h4 class="h4 service-subtitle">Backend</h4>
+            <div class="skills-grid">
+              <div class="skill-item" title="NodeJS">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  alt="NodeJS"
+                />
+                <p>NodeJS</p>
+              </div>
+              <div class="skill-item invert" title="Express">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                  alt="Express"
+                />
+                <p>Express</p>
+              </div>
+              <div class="skill-item" title="OpenAI">
+                <img src="/assets/images/logo-openAI.png" alt="OpenAI" />
+                <p>OpenAI</p>
+              </div>
+              <div class="skill-item" title="PayPal">
+                <img src="/assets/images/logo-paypal.png" alt="PayPal" />
+                <p>PayPal</p>
+              </div>
+              <div class="skill-item" title="Linux">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                  alt="Linux"
+                />
+                <p>Linux</p>
+              </div>
+              <div class="skill-item" title="Nginx">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg"
+                  alt="Nginx"
+                />
+                <p>Nginx</p>
+              </div>
+              <div class="skill-item" title="Firebase">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                  alt="Firebase"
+                />
+                <p>Firebase</p>
+              </div>
+              <div class="skill-item" title="Cloudinary">
+                <img
+                  src="/assets/images/logo-cloudinary.svg"
+                  alt="Cloudinary"
+                />
+                <p>Cloudinary</p>
+              </div>
+            </div>
+
+            <h4 class="h4 service-subtitle">Tools</h4>
+            <div class="skills-grid">
+              <div class="skill-item" title="Git">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                />
+                <p>Git</p>
+              </div>
+              <div class="skill-item" title="Figma">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                  alt="Figma"
+                />
+                <p>Figma</p>
+              </div>
+              <div class="skill-item" title="ClickUp">
+                <img src="/assets/images/logo-clickUp.png" alt="ClickUp" />
+                <p>ClickUp</p>
+              </div>
+              <div class="skill-item" title="Postman">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+                  alt="Postman"
+                />
+                <p>Postman</p>
+              </div>
+              <div class="skill-item" title="Lighthouse">
+                <img
+                  src="/assets/images/logo-lighthouse.svg"
+                  alt="Lighthouse"
+                />
+                <p>Lighthouse</p>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #Experience
+      -->
+
+        <article class="experience" data-page="experience">
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="hourglass-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Comtrade 360</h4>
+                <h5 class="h5 timeline-item-subtitle">Full-stack Engineer</h5>
+                <span>November 2021 - May 2024</span>
+
+                <ul class="timeline-inner-list">
+                  <li>
+                    Led a team in a Hackathon, showcasing XSS attack via a
+                    third-party service provider, raising awareness across 10+
+                    development teams
+                  </li>
+                  <li>
+                    Developed and maintained multiple shared UI components in
+                    React
+                  </li>
+                  <li>
+                    Reduced React bundle size by 25% using different
+                    optimization techniques
+                  </li>
+                  <li>
+                    Built a Playwright test suite to validate critical user
+                    journeys and reduce manual QA work
+                  </li>
+                  <li>
+                    Wrote component documentation, covering design philosophies
+                    and use cases
+                  </li>
+                  <li>
+                    Wrote shell script for automating creation of Salesforce
+                    scratch org, resulting in improved developer productivity
+                  </li>
+                  <li>
+                    Hosted knowledge-sharing sessions and mentored new team
+                    members
+                  </li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Telekod</h4>
+                <h5 class="h5 timeline-item-subtitle">Front-end Engineer</h5>
+                <span>January 2021 - October 2021</span>
+
+                <ul class="timeline-inner-list">
+                  <li>
+                    Transformed Figma wireframes into responsive Angular
+                    components
+                  </li>
+                  <li>Maintained several Kendo UI components</li>
+                  <li>
+                    Implemented form validations using Angular Reactive Forms
+                  </li>
+                  <li>Integrated REST APIs</li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PROJECTS
+      -->
+
+        <article class="projects" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects-section">
+            <div class="projects-grid">
+              <!-- Project 1 -->
+              <div class="project-item">
+                <a
+                  href="https://everyday-ai.io/"
+                  target="_blank"
+                  class="project-img-link"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/demo-EverydayAI.png"
+                      alt="AI wallpapers demo"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+                <div class="project-content">
+                  <div class="project-header">
+                    <a href="https://everyday-ai.io/" target="_blank">
+                      <h3 class="project-title">everyday-ai.io</h3>
+                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/zobla-kv/EverydayAI"
+                        target="_blank"
+                      >
+                        <img
+                          src="/assets/images/logo-github.png"
+                          alt="Github Link"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-desc">
+                    Generate wallpapers for various devices using AI.
+                  </p>
+                  <ul class="project-tags">
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+                        alt="Angular"
+                      />
+                      <p>Angular</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        alt="Typescript"
+                      />
+                      <p>Typescript</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                        alt="Bootstrap"
+                      />
+                      <p>Bootstrap</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg"
+                        alt="RxJs"
+                      />
+                      <p>RxJs</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                        alt="Express"
+                        class="invert"
+                      />
+                      <p>Express</p>
+                    </li>
+                    <li>
+                      <img src="/assets/images/logo-openAI.png" alt="OpenAI" />
+                      <p>OpenAI</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                        alt="Linux"
+                      />
+                      <p>Linux</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                        alt="Firebase"
+                      />
+                      <p>Firebase</p>
+                    </li>
+                    <li>
+                      <img src="/assets/images/logo-paypal.png" alt="PayPal" />
+                      <p>PayPal</p>
+                    </li>
+                    <li>
+                      <img
+                        src="/assets/images/logo-cloudinary.svg"
+                        alt="Cloudinary"
+                      />
+                      <p>Cloudinary</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pug/pug-original.svg"
+                        alt="Pug.js"
+                      />
+                      <p>Pug.js</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="project-item">
+                <a
+                  href="https://ethereum-nft-mint.com/"
+                  target="_blank"
+                  class="project-img-link"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/demo-nft.png"
+                      alt="Ethereum NFT DualMint demo"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+                <div class="project-content">
+                  <div class="project-header">
+                    <a href="https://ethereum-nft-mint.com/" target="_blank">
+                      <h3 class="project-title">ethereum-nft-mint.com</h3>
+                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/zobla-kv/Ethereum-NFT-DualMint"
+                        target="_blank"
+                      >
+                        <img
+                          src="/assets/images/logo-github.png"
+                          alt="Github Link"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-desc">
+                    Mint image-based NFTs from a prompt using AI.
+                  </p>
+                  <ul class="project-tags">
+                    <li>
+                      <img
+                        src="/assets/images/logo-blockchain.png"
+                        alt="Blockchain"
+                      />
+                      <p>Blockchain</p>
+                    </li>
+                    <li>
+                      <img
+                        src="/assets/images/logo-ethereum.png"
+                        alt="Ethereum"
+                      />
+                      <p style="position: relative; left: -3px">Ethereum</p>
+                    </li>
+                    <li>
+                      <img src="/assets/images/logo-openAI.png" alt="OpenAI" />
+                      <p>OpenAI</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        alt="React"
+                      />
+                      <p>React</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        alt="Typescript"
+                      />
+                      <p>Typescript</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                        alt="Tailwind"
+                      />
+                      <p>Tailwind</p>
+                    </li>
+                    <li>
+                      <img
+                        src="/assets/images/logo-solidity.png"
+                        alt="Solidity"
+                      />
+                      <p>Solidity</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg"
+                        alt="Hardhat"
+                      />
+                      <p>Hardhat</p>
+                    </li>
+                    <li>
+                      <img
+                        src="/assets/images/logo-viem.png"
+                        alt="Viem"
+                        class="invert"
+                      />
+                      <p>Viem</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                        alt="Express"
+                        class="invert"
+                      />
+                      <p>Express</p>
+                    </li>
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+                        alt="Jest"
+                      />
+                      <p>Jest</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="project-item">
+                <a
+                  href="https://zobla-kv.github.io/Pathfinding-game/"
+                  target="_blank"
+                  class="project-img-link"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/assets/images/demo-pathfinding.png"
+                      alt="Pathfinding game demo"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+                <div class="project-content">
+                  <div class="project-header">
+                    <a
+                      href="https://zobla-kv.github.io/Pathfinding-game/"
+                      target="_blank"
+                    >
+                      <h3 class="project-title">Pathfinding</h3>
+                    </a>
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/zobla-kv/Pathfinding-game"
+                        target="_blank"
+                      >
+                        <img
+                          src="/assets/images/logo-github.png"
+                          alt="Github Link"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-desc">
+                    Idle 2D game where you watch a player complete levels by
+                    finding exit while avoiding obstacles.
+                  </p>
+                  <ul class="project-tags">
+                    <li>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        alt="React"
+                      />
+                      <p>React</p>
+                    </li>
+                    <li>
+                      <img
+                        src="/assets/images/logo-pathfinding.png"
+                        alt="Pathfinding"
+                        style="scale: 1.2"
+                      />
+                      <p>Pathfinding</p>
+                    </li>
+                    <li>
+                      <img
+                        src="/assets/images/logo-algorithm.png"
+                        alt="Algorithms"
+                        style="scale: 1.2"
+                      />
+                      <p>Algorithms</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list" id="medium-posts">
+              <span class="blog-state">Loading...</span>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46134.07264303684!2d20.652879749145253!3d43.72344178088762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475700c799ce8c71%3A0x9e935f21a083e94a!2sKraljevo!5e0!3m2!1sen!2srs!4v1758920996803!5m2!1sen!2srs"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="/assets/js/background.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/blog.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="/assets/js/email.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
