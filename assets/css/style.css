@@ -907,7 +907,7 @@ main {
   box-shadow: var(--shadow-2);
   color: var(--light-gray);
   padding: 0.35rem 0.5rem;
-  font-size: 0.66rem;
+  font-size: 0.6rem;
   z-index: 1;
 }
 
