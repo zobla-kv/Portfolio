@@ -197,7 +197,7 @@ article {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
   border-radius: 20px;
-  padding: 15px;
+  padding: 12px;
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -565,10 +565,17 @@ main {
 .project-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 16px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+}
+
+.service-item {
+  padding: 20px;
+}
+
+.project-item {
+  padding: 14px;
 }
 
 .service-item::before,
@@ -856,6 +863,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 12px;
 }
 
 .project-title {
@@ -888,6 +896,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
+  padding: 0 12px;
 }
 
 .project-tags {
@@ -1368,7 +1377,11 @@ textarea.form-input::-webkit-resizer {
     padding: 1rem;
   }
 
-  /* .project-img, */
+  .project-header,
+  .project-desc {
+    padding: 0;
+  }
+
   .blog-banner-box {
     border-radius: 16px;
   }
