@@ -1382,6 +1382,10 @@ textarea.form-input::-webkit-resizer {
     padding: 0;
   }
 
+  .project-item {
+    padding: 20px;
+  }
+
   .blog-banner-box {
     border-radius: 16px;
   }
