@@ -565,7 +565,7 @@ main {
 .project-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 20px;
+  padding: 18px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
