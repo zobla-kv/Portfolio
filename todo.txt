@@ -14,17 +14,20 @@
 - check responsive at the end
 - promeni title i desc i favicon i meta za sliku kad se sharuje link
 - remove my photo bg using some tool (not done looks weird)
+- deploy za kliente na zobla.dev (tu je bitniji title i desc)
 
-- deployaj startup cv na github pages. a za kliente na zobla.dev (tu je bitniji title i desc)
+- deployaj startup cv na github pages. 
 
 Proveri opet
 
 posle release
+- sporo se ucitavaju slike za projekte
 - prevent email spam
 - smanji broj varijabli za boje i napravi tema da ima
 - download CV
 - napravi modele za podatke i da budu dinamicni iz script.js
 - dodaj toast za mail success error
+- add google analytics
 
 
 optimization, performance, AI, Complete Solution, Scalable architecture
