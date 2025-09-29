@@ -907,7 +907,7 @@ main {
   box-shadow: var(--shadow-2);
   color: var(--light-gray);
   padding: 0.35rem 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.66rem;
   z-index: 1;
 }
 
@@ -1368,9 +1368,12 @@ textarea.form-input::-webkit-resizer {
     padding: 1rem;
   }
 
-  /* .project-img, */
   .blog-banner-box {
     border-radius: 16px;
+  }
+
+  .project-tags li {
+    font-size: 0.8rem;
   }
 
   .blog-posts-list {
