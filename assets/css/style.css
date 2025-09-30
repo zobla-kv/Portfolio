@@ -538,6 +538,7 @@ main {
   padding: 0.2em 0.5em;
   border-radius: 4px;
   opacity: 0.7;
+  display: inline-block;
 }
 
 /**
@@ -1331,6 +1332,11 @@ textarea.form-input::-webkit-resizer {
 
   .about-text {
     margin-bottom: 40px;
+  }
+
+  .highlight-text {
+    padding: 0.4rem;
+    line-height: 20px;
   }
 
   /* service */
