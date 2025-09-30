@@ -531,6 +531,15 @@ main {
   margin-bottom: 15px;
 }
 
+.highlight-text {
+  font-weight: bold;
+  color: #121212;
+  background: var(--primary-color);
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
 /**
  * #service 
  */
@@ -1650,7 +1659,7 @@ textarea.form-input::-webkit-resizer {
 
   .main-content {
     width: 100%;
-    max-width: 900px;
+    max-width: 910px;
     margin: 0;
   }
 
