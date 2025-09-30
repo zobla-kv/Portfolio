@@ -538,6 +538,7 @@ main {
   padding: 0.2em 0.5em;
   border-radius: 4px;
   opacity: 0.7;
+  display: inline-block;
 }
 
 /**
