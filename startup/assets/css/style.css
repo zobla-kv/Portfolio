@@ -1333,6 +1333,11 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 40px;
   }
 
+  .highlight-text {
+    padding: 0.4rem;
+    line-height: 20px;
+  }
+
   /* service */
 
   .service-item {
