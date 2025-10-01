@@ -65,16 +65,6 @@ function renderErrorLayout() {
   span.innerHTML = '<span class="blog-state">Failed to load posts.</span>';
 
   mediumContainer.appendChild(span);
-
-  // const li = document.createElement('li');
-  // li.classList.add('blog-post-item');
-  // li.innerHTML = `
-  //   <div class="blog-content">
-  //     <p class="h3">Failed to load posts.</p>
-  //   </div>
-  // `;
-
-  // mediumContainer.appendChild(li);
 }
 
 loadMediumPosts();
