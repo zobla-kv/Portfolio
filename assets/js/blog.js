@@ -1,7 +1,7 @@
 const mediumContainer = document.getElementById('medium-posts');
 
 async function loadMediumPosts() {
-  const rssUrl = 'https://medium.com/feed/@nemanjablagojevic';
+  const rssUrl = 'https://medium.com/feed/@zobla';
   const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`;
 
   try {
